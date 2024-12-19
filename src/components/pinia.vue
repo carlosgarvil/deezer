@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h1>Gestión de Email</h1>
+      <h1>Gestión de estados con Pinia</h1>
       <input
         v-model="email"
         type="email"
@@ -13,6 +13,7 @@
   </template>
   
   <script setup>
+  import { computed } from 'vue';
   import { useUserStore } from '../stores/email';
   
   // Accede a la store
