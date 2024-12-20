@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h1>Gestión de estados con Pinia</h1>
+      <h1>🍍 Gestión de estados con Pinia</h1>
       <input
         v-model="email"
         type="email"
