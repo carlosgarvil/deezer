@@ -2,6 +2,8 @@
     <div>
       <h1>Buscador</h1>
       <p>Busca canciones, artistas o álbumes.</p>
+      <p>En esta sección ya se ha configurado una llamada a la API pública de Deezer.</p>
+      <p>Para que salgan los resultados debes entrar en <a href="https://cors-anywhere.herokuapp.com/corsdemo">https://cors-anywhere.herokuapp.com/corsdemo</a></p>
     </div>
   <div class="search-page">
     <h1>Resultados del Álbum</h1>
