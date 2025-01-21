@@ -22,8 +22,6 @@ import PiniaComponent from '../components/pinia.vue';
 // Vincula datos de la store
 const userStore = useUserStore();
 
-const userEmail = computed(() => userStore.email);
-const emailDomain = computed(() => userStore.emailDomain);
 
   </script>
   
